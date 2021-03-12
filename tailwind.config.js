@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         "header-mobile": "url('images/mobile/image-hero.jpg')",
       },
+      fontFamily: {
+        sans: ["Alata", "Helvetica", "Arial"],
+      },
     },
   },
   variants: {
