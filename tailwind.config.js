@@ -5,14 +5,15 @@ module.exports = {
     extend: {
       colors: {
         darkGray: "hsl(0, 0%, 55%)",
-        verDarkGray: "hsl(0, 0%, 41%)",
+        veryDarkGray: "hsl(0, 0%, 41%)",
       },
       backgroundImage: {
         "header-mobile": "url('images/mobile/image-hero.jpg')",
+        "header-desktop": "url('images/desktop/image-hero.jpg')",
       },
-      fontFamily: {
-        sans: ["Alata", "Helvetica", "Arial"],
-      },
+      // fontFamily: {
+      //   sans: ["Alata", "Helvetica", "Arial"],
+      // },
     },
   },
   variants: {
