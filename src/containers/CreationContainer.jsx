@@ -3,7 +3,7 @@ import creationsMockup from "../utils/creationsMock";
 
 const CreationContainer = () => {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 my-6 max-w-3xl mx-auto">
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 my-6 max-w-7xl mx-auto">
       <h3 className="text-center uppercase text-3xl font-thin md:col-span-2 lg:col-span-4	">
         Our creatons
       </h3>

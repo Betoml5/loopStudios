@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <header className="bg-header-mobile bg-cover bg-no-repeat p-4 h-96 lg:bg-header-desktop">
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="flex items-baseline justify-between">
           <h2 className="text-2xl text-white font-semibold">loopstudios</h2>
           <div className="lg:hidden">
@@ -26,11 +26,11 @@ const Header = () => {
           </div>
 
           <div
-            className={`bg-black absolute h-screen w-full text-white p-4 top-0 bottom-0 left-0 right-0  ${
+            className={`bg-black absolute h-screen w-full text-white p-4 top-0 bottom-0 left-0 right-0 transition ease-in-out duration-700 ${
               menu ? `block` : `hidden`
             }`}
           >
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-7xl mx-auto">
               <div className="flex items-center justify-between">
                 <h3 className="font-semibold text-2xl">loopstudios</h3>
                 <div>

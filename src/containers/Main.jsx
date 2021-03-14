@@ -4,7 +4,7 @@ import heroImageDesktop from "../images/desktop/image-interactive.jpg";
 
 const Main = () => {
   return (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <div className="lg:flex">
         <div className="lg:w-3/4">
           <picture>
